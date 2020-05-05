@@ -1,18 +1,26 @@
+html,
+body{
+    height: 100%;
+}
+
 /* Flexbox styling for images */
 .container{
+ display: flex;
  width: 80%;
- height: auto;
+ height: 100%;
+ flex-direction: column;
+ justify-content: flex-end;
 }
 /* Temporary display fitting */
 .image{
     width: 25%;
-    /* height: 25%; */
+    
     padding: 25px;
     justify-content: space-around;
 }
 .flexbox,
 .flexbox2,
 .flexbox3{
-    display: flex;
-    
+    display: flex;  
 }
+
