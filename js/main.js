@@ -1,3 +1,6 @@
+
+
+//---------CODE FOR INTERACTIVE SEARCHBAR-------//
 //create variables that will store the letters being typed into search bar
 let searchbar= document.querySelector('input');
 let inputText;

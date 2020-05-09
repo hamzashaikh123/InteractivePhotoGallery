@@ -14,9 +14,9 @@ body{
 }
 /* Temporary display fitting */
 .image{
-    width: 180px;
-    height: 180px;
-    padding: 25px;
+    width: 90px;
+    height: 90px;
+    padding: 15px;
     justify-content: space-around;
 }
 .flexbox,
@@ -35,4 +35,18 @@ body{
     margin: 30px;
     padding: 10px;
     border: lightgrey 2px solid;
+}
+
+@media (min-width:768px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        width: 180px;
+        height: 180px;
+        padding: 25px;
+        justify-content: space-around;
+    }
+    
 }
